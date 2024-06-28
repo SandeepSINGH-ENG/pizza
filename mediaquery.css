@@ -1,0 +1,153 @@
+@media only screen and (max-width: 950px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    /* .pro-title {
+        font-size: 3rem;
+    } */
+    .col-40, .col-60, .col-80, .col-50, .col-3, .col-90{
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .mobile-flex-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mobile-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .float-right {
+        float: unset;
+    }
+    .main-banner h1 {
+        margin-top: 0px;
+        font-size: 3rem;
+        display: inline;
+    }
+    h1.ml-2 {
+        padding-left: 10px;
+    }
+    .mob-scr {
+        width: 100%;
+        overflow-x: scroll;
+        margin-left: 25px;
+        padding-bottom: 21px;
+    }
+    .float-card{
+        min-width: 80%;
+    }
+    /* .pro-title {
+        width: 300px;
+    } */
+    .reviews {
+        color: white;
+    }
+    section.reviews .col-90 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .navigation, .side-btn{
+        display: none;
+    }
+    .float-card h2{
+        font-size: 2rem;
+    }
+    #menu{
+        display: block;
+    }
+    header .navigation {
+        
+        position: fixed;
+        background: black;
+        top: 0;
+        width: 76%;
+        height: 100vh;
+        right: 0;
+        z-index: 99999;
+    }
+    .mobile-active{
+        display: block;
+    }
+    header .navigation .flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        text-align: revert-layer;
+        align-items: flex-start;
+        margin-left: 38px;
+    }
+    #close {
+        display: block;
+        position: absolute;
+        left: 25px;
+        z-index: 9999999999;
+        top: 20px;
+    }
+    section.product-list {
+        overflow: hidden;
+    }
+    .pro-title {
+        font-size: 5rem;
+    }
+    .forth-color {
+        background: var(--primary-color);
+        padding-top: 22px;
+        padding-bottom: 70px !important;
+    }
+    #home .solid {
+        margin-top: 30px;
+    }
+    footer .flex {
+        display: flex;
+        justify-content: center;
+    }
+    .reviews .flex {
+        align-items: flex-end;
+    }
+    .col-3.menu-card {
+        width: 50%;
+    }
+
+    /*  gallery*/
+    .Gallery {
+        position: relative;
+        z-index: 99;
+        margin-top: 0;
+        background: #a1112d;
+        border-bottom: 2px solid black;
+    }
+    .mt-120 {
+        margin-top: 10px;
+    }
+
+    /* contact form */
+    .form-container {
+        max-width: 700px;
+        width: 77%;
+    }
+    .float-left-txt, .float-right-txt {
+
+        left: 0;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .round {
+        height: 400px;
+        background: #a1112d;
+        width: 400px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    section#contact-circle-form {
+        overflow: hidden;
+    }
+    .float-title{
+        font-size: 4rem;
+    }
+  }

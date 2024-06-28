@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body id="contact">
+    <header>
+        <nav class="flex container">
+            <a  href="index.html" class="logo"><img src="assets/logo.png"></a>
+            <div class="navigation" id="mynav">
+                <div id="close"><img src="assets/close.svg"></div>
+                <ul class="flex">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='menu.html'>Menu</a></li>
+                    <li><a href='about.html' >About</a></li>
+                    <li><a href='contact.html'class="active">Contact</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="side-btn">
+               <div><a href="#" class="btn">Order now</a></div>
+            </div>
+            <div id="menu">
+                <img src="assets/menu.svg">
+            </div>
+        </nav>
+    </header>
+    <div class="about-page">
+        <section>
+            <div class="solid">
+                <div class="flex container pro-title ">
+
+                    <p data-aos="fade-up">C</p>
+                    <p data-aos="fade-up" data-aos-duration="2000">O</p>
+                    <p data-aos="fade-up" data-aos-duration="1000">N</p>
+                    <p data-aos="fade-up" data-aos-duration="2300">T</p>
+                    <p data-aos="fade-up" data-aos-duration="3000">A</p>
+                    <p data-aos="fade-up" data-aos-duration="2000">C</p>
+                    <p data-aos="fade-up" data-aos-duration="1000">T</p>
+                </div>
+                <div class="container txt-center">
+                    <p>At grabb a pizza, we're always happy to hear from our customers. Whether you have a question, feedback, or just want to say hello, feel free to reach out to us through any of the following methods:</p>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="contact-circle" class="p-tb-5">
+            <div class="round" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800"></div>
+
+
+                
+                
+                        <div class="float-left-txt">
+                            Our team is available to take your calls during our business hours, and we’ll be happy to assist you with reservations, orders, or any inquiries you may have.
+                            <b>call us on +001 787 7678</b>
+                        </div>
+                     
+        
+                <div class="float-title">Let's Connect</div>
+             
+                <div class="float-right-txt">
+                                    
+                    You can also reach out to us directly through our online contact form. Just fill in your details and message, and we’ll get back to you as soon as possible.
+                    
+                     </div>
+                </div>
+              
+                
+            
+        </section>
+        <section id="contact-circle-form" >
+            <img src="assets/bg-round2.png" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+            <div class="form-container">
+                <h1>Contact us</h1>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+    
+                <div class="name-fields">
+                    <div class="name-field">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="name-field">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+    
+                <div class="checkbox-container">
+                    <input type="checkbox" id="agreement" name="agreement">
+                    <label for="agreement">Receive promotions and updates via email.</label>
+                </div>
+    
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            </div>
+        </section>
+
+
+    </div>
+    <footer class="p-tb-5">
+
+        <div class="flex container">
+
+            <div class="navigation">
+                <ul class="flex">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='menu.html'>Menu</a></li>
+                    <li><a href='about.html' >About</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+                </ul>
+            </div>
+            <p> &copy; ALL RIGHTS ARE RESERVED BY GRABB A PIZZA</p>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+        $(document).ready(function () {
+            $('.slick').slick({
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                prevArrow: '<button type="button" class="slick-prev">&#8249;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#8250;</button>'
+            });
+        });
+
+    </script>
+     <script src="script.js"></script>
+</body>
+
+</html>
